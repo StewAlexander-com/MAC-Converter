@@ -64,13 +64,12 @@ while mac_address != "q":
 with open("mac-list.txt", "r") as mac_list:
     #read the file
     mac_list_read = mac_list.read()
-    #print the file
-    #print the file contents are
+    #print the file contents
     print("With the file contents:\n\n" + mac_list_read)
 print("\n\nQuitting...")  
 #close the file
 mac_list.close()
-#sleep for 3 seconds
+#sleep for 5 seconds
 time.sleep(5)
 #exit the program
 sys.exit()
